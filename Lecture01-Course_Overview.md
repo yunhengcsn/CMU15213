@@ -1,6 +1,6 @@
 # Lecture 01 Course Overview
 
-##### Book: 《深入理解计算机系统》v3
+##### Book: *Computer Systems: A Programmer's Perspective, Third Version(CS:APP3e),Pearson, 2016*
 
 - Great Reality #1: Ints are not Integers, Floats are not Reals.
   - 整数运算发生溢出时，值可能变为整数或者复数，整数运算符合交换律、结合律
@@ -17,3 +17,14 @@
 - Great Reality #5: Computers do more than execute programs
   - get data in and out
   - communicate with each other over networks.
+
+##### Role within CS/ECE Curriculum
+
+- 213 is foundation of computer systems, underlying principles for hardware, software, and networking 
+- network prog concurrency ----- CS 440 Distributed Systems
+- Data Reps. Memory Model ----- CS 415 Databases
+- Network Protocols ----- CS 441 Networks
+- Processes Mem.Mgmt ----- CS 410 Operating Systems Cs 412 OS practicum
+- Machine Code ----- CS 411 Compilers
+- Arithmetic ----- ECE 340 Digital Computation
+- Execution Model Memory System ----- ECE 447 ECE 349 ECE 545/549 ECE 348
