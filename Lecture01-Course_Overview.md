@@ -6,7 +6,7 @@ GDB on Unix  *or* LLDB on Mac OS
 
 - Great Reality #1: Ints are not Integers, Floats are not Reals.
   - 整数运算发生溢出时，值可能变为整数或者负数，整数运算符合交换律、结合律
-  - 浮点数运算不符合交换律、结合律，有舍入问题，可能会丢掉不重要的数字
+  - 浮点数运算不符合交换律、结合律，有舍入问题，可能会丢掉不重要的数字，[浮点数计算误差详解](http://www.pbr-book.org/3ed-2018/Shapes/Managing_Rounding_Error.html)
 - Great Reality #2: You've Got to Know Assembly（汇编语言）
   - Assembly is key to machine-level execution model
 - Great Reality #3: Memory Matters - RAM is an unphysical abstraction
