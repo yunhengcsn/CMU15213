@@ -2,14 +2,14 @@
 
 ### Representing information as bits
 
-###### Everything is bits(*0 or 1*)
+##### Everything is bits(*0 or 1*)
 
 - By encoding/interpreting sets of bits in various way, computers determine what to do(instructions) and representation and manipulation of numbers,sets,strings,etc.
 - Why bits? Electronic Implementation
   - Easy to store with bistable elements
   - Reliably transmitted on noisy and inaccurate wires
 
-###### Base 2 number representation
+##### Base 2 number representation
 
 _  _  .   _     _
 
@@ -17,7 +17,7 @@ _  _  .   _     _
 
 2 1   1/2 1/4
 
-###### Encoding Byte values
+##### Encoding Byte values
 
 - group collections of 4 bits at a time and then represent that in base 16(hexadecimal representation, using A ~F as values 10 through 15)
 - A byte is 8 bits
@@ -41,7 +41,7 @@ _  _  .   _     _
 | E    | 14      | 1110   |
 | F    | 15      | 1111   |
 
-###### Example Data Representation(byte)
+##### Example Data Representation(byte)
 
 | C Data Type | Typical 32-bit | Typical 64-bit | x86-64                                  |
 | ----------- | -------------- | -------------- | --------------------------------------- |
@@ -61,24 +61,24 @@ _  _  .   _     _
 
 *基于布尔运算来考虑位级运算*
 
-###### Boolean Algebra
+##### Boolean Algebra
 
 - Algebraic representation of logic: Encode 'True' as 1 and 'False' as 0
 - and &          or |             not ~         Exclusive-or(Xor) ^
 
-###### General Boolean Algebras
+##### General Boolean Algebras
 
 - Operate on bit vectors
 - All of the properties of boolean algebra apply
 
-###### Bit-level Operations in C
+##### Bit-level Operations in C
 
 - Operations &, |, ~, ^ available in C
   - Apply to any "Integral" data type(long, int, short, char, unsigned)
   - View arguments as bit vectors
   - Arguments applied bit-wise
 
-###### Contrast: logic operations in C
+##### Contrast: logic operations in C
 
 - logical operations: && || !
   - view 0 as "False", anything nonzero as "True"
@@ -86,7 +86,7 @@ _  _  .   _     _
   - ***Early termination***
     - p && *p  (avoids null pointer access)
 
-###### Shift Operations
+##### Shift Operations
 
 - left shift :   x  <<y     fill with 0 on right
 - right shift : x>>y
@@ -108,7 +108,7 @@ _  _  .   _     _
 
 ### Integers
 
-###### Representation: unsigned and signed
+##### Representation: unsigned and signed
 
 - Encoding integers
 
@@ -161,7 +161,7 @@ $|T_{min}|=T_{max}+1$              $U_{max}=2*T_{max}+1$
 | 1110 | 14     | -2     |
 | 1111 | 15     | -1     |
 
-###### Conversion, casting
+##### Conversion, casting
 
 - Signed vs Unsigned in C
 
@@ -194,7 +194,7 @@ $|T_{min}|=T_{max}+1$              $U_{max}=2*T_{max}+1$
 
     *the result of **sizeof** is considered to be unsigned*
 
-###### Expanding, truncating 
+##### Expanding, truncating 
 
 - Expanding(e.g.,short int to int)
   - Unsigned: zeros added
@@ -206,8 +206,8 @@ $|T_{min}|=T_{max}+1$              $U_{max}=2*T_{max}+1$
   - Unsigned: mod operation & Signed: similar to mod
   - For small numbers yields expected behavior
 
-###### Addition, negation, multiplication, shifting
+##### Addition, negation, multiplication, shifting
 
-###### Summary
+##### Summary
 
 ### Representations in memory, pointers,strings
