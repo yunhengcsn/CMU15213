@@ -1,9 +1,11 @@
 # Lecture 01 Course Overview
 
+GDB on Unix  *or* LLDB on Mac OS 
+
 ##### Book: *Computer Systems: A Programmer's Perspective, Third Version(CS:APP3e),Pearson, 2016*
 
 - Great Reality #1: Ints are not Integers, Floats are not Reals.
-  - 整数运算发生溢出时，值可能变为整数或者复数，整数运算符合交换律、结合律
+  - 整数运算发生溢出时，值可能变为整数或者负数，整数运算符合交换律、结合律
   - 浮点数运算不符合交换律、结合律，有舍入问题，可能会丢掉不重要的数字
 - Great Reality #2: You've Got to Know Assembly（汇编语言）
   - Assembly is key to machine-level execution model
